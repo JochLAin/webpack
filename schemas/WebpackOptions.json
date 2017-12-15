@@ -68,7 +68,7 @@
       "uniqueItems": true
     },
     "entry": {
-      "oneOf": [
+      "anyOf": [
         {
           "minProperties": 1,
           "additionalProperties": {
@@ -1685,8 +1685,5 @@
       "type": "object"
     }
   },
-  "required": [
-    "entry"
-  ],
   "type": "object"
 }
